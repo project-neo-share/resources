@@ -2,122 +2,107 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+**생성형 AI 프롬프트 실무 샘플 저장소**
 
-[Link to another page](./another-page.html).
+[한국생성형AI연구원 홈페이지](./another-page.html).
 
-There should be whitespace between paragraphs.
+생성형 AI 프롬프트 디자인 실무 교재에서 활용된 샘플과 도메인별 응용 템플릿을 공유하는 저장소입니다. 
+적절한 프롬프트 디자인을 통해 업무 생산성을 극대화할 수 있습니다. 
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+# 현업 도메인 별 실무 샘플
 
-# Header 1
+현업에서 실제로 사용되는 실무 프롬프트 샘플의 몇가지 예시
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## 마케팅과 광고
 
-## Header 2
-
-> This is a blockquote following a header.
+> 마케팅 분야 고객경험, 사용자 스토리를 작성하는데 유용합니다
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 
-### Header 3
+## 엔터테인먼트, 게임, 그리고 아트
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+## 데이터 처리, 분석
+
+## 코드 작성 자동화 
+
+아래는 그로스 해킹 마케터가 사이트 신규 기능 추가를 위한 A/B 테스트 작업 계획을 세울 때, 
+ChatGPT, Claude, Gemini, LLama, Deepseek 모델에 각각 최적화된 프롬프트입니다. 
+각 모델의 특성과 강점을 반영하여 설계되었습니다.
+
+```ChatGPT
+// ChatGPT는 창의적인 아이디어 도출과 간단한 워크플로 설계에 강점이 있습니다.
+프롬프트:
+“그로스 해킹 마케터로 활동하세요. 웹사이트의 새로운 기능을 평가하기 위한 세부적인 A/B 테스트 계획을 설계하세요. 다음 사항을 포함하세요:
+명확한 목표와 가설.
+타겟 고객 세분화.
+측정할 주요 지표(예: CTR, 전환율).
+테스트 기간 및 샘플 크기 추정.
+최소한의 개발자 리소스를 사용한 구현 단계.
+성공적인 변형을 선택하기 위한 분석 및 의사 결정 기준.”
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+```Claude
+// Claude는 복잡한 문제를 논리적으로 분석하고 다단계 작업을 설계하는 데 적합합니다.
+프롬프트:
+“그로스 해킹 마케터로서 새로운 웹사이트 기능에 대한 포괄적인 A/B 테스트 계획을 작성하세요. 답변에는 다음이 포함되어야 합니다:
+프로세스의 단계별 분석.
+결과의 통계적 유의성을 보장하는 방법.
+실시간 트래픽 할당 전략(예: 멀티 무장 밴딧).
+테스트 중 사용자 경험에 대한 윤리적 고려 사항.
+테스트 결과에 따라 반복하는 방법.”
 ```
 
-#### Header 4
+```Gemini
+// Gemini는 데이터 분석 및 성능 모니터링에 강점이 있는 AI 모델입니다.
+프롬프트:
+“데이터 기반 의사 결정에 대한 전문 지식을 활용하여 새로운 웹사이트 기능 출시에 대한 A/B 테스트 계획의 개요를 작성하세요. 계획에는 다음이 포함되어야 합니다:
+측정 가능한 목표와 가설 설정.
+CTR 및 이탈률과 같은 성능 지표의 실시간 모니터링.
+트래픽 분산 전략(예: 50:50 분할 또는 적응형 할당).
+구현에 사용할 도구 및 API.
+실행 가능한 인사이트를 도출하기 위한 테스트 후 분석 프레임워크.”
+```
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+```Llama
+// Llama는 구조화되고 기술적인 프롬프트와 상세한 결과물을 처리하는 데 탁월합니다.
+프롬프트:
+“웹사이트에 새로운 기능을 도입하기 위한 A/B 테스트 워크플로우 초안을 작성하세요. 포함:
+특정 메트릭(예: 전환율 개선)을 사용한 가설 수립.
+백엔드 통합을 위한 기술 설정 지침.
+트래픽 샘플링 방법 및 통계적 검증 기법.
+테스트 결과를 제시하기 위한 보고 템플릿.
+성공적인 기능의 확장을 위한 권장 사항.”
 
-##### Header 5
+```
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+```Deepseek
+// DeepSeek는 논리적 추론과 반복적인 문제 해결에 최적화되어 있어 고급 실험 설정에 이상적입니다.
+프롬프트:
+“새로운 웹사이트 기능을 평가하기 위한 고급 A/B 테스트 전략을 다음과 같은 세부 사항으로 설계하세요:
+이전 사용자 행동 데이터를 기반으로 한 가설.
+탐색 대 익스플로잇 전략(예: 다중 무장 도둑).
+손실을 최소화하면서 전환을 극대화하기 위한 적응형 트래픽 할당 기법.
+테스트 최적화를 위한 머신 러닝 기반 예측 모델.
+초기 테스트 결과를 기반으로 반복적인 개선 프로세스.”
 
-###### Header 6
+```
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+공통 요소
 
-### There's a horizontal rule below this.
+모든 프롬프트는 다음을 고려하여 설계되었습니다:
+* 목표 설정: 명확한 테스트 목표와 가설 정의.
+* 데이터 기반 접근: CTR, 전환율 등 핵심 지표 설정 및 분석 방법 포함.
+* 실행 가능성: 기술적 구현 및 리소스 최소화 방안 제시.
+* 결과 활용: 테스트 결과를 기반으로 한 의사 결정 프로세스 제시.
 
 * * *
+### Contributors
 
-### Here is an unordered list:
+| 이름         | 소속              |  내용  |
+|:-------------|:------------------|:------|
+| 강송희       | 한국공학대        | 초안   |
+|              |                   | 마케팅  |
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
+### Github Pages
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
