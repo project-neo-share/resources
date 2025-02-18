@@ -4,7 +4,8 @@ layout: default
 
 # 생성형 AI 프롬프트 실무 샘플 저장소
 
-[한국생성형AI연구원 홈페이지](./another-page.html).
+[생성형 AI 학습터](https://blog.naver.com/ksnoh114).
+[전자신문 인터넷 텍스트북 랜딩 페이지](./another-page.md).
 
 생성형 AI 프롬프트 디자인 실무 교재에서 활용된 샘플과 도메인별 응용 템플릿을 공유하는 저장소입니다. 
 적절한 프롬프트 디자인을 통해 업무 생산성을 극대화할 수 있습니다. 
@@ -14,12 +15,6 @@ layout: default
 > 마케팅 분야 고객경험, 사용자 스토리를 작성하는데 유용합니다
 >
 > When something is important enough, you do it even if the odds are not in your favor.
-
-## 엔터테인먼트, 게임, 그리고 아트
-
-## 데이터 처리, 분석
-
-## 코드 작성 자동화 
 
 아래는 그로스 해킹 마케터가 사이트 신규 기능 추가를 위한 A/B 테스트 작업 계획을 세울 때, 
 ChatGPT, Claude, Gemini, LLama, Deepseek 모델에 각각 최적화된 프롬프트입니다. 
@@ -90,6 +85,13 @@ CTR 및 이탈률과 같은 성능 지표의 실시간 모니터링.
 * 데이터 기반 접근: CTR, 전환율 등 핵심 지표 설정 및 분석 방법 포함.
 * 실행 가능성: 기술적 구현 및 리소스 최소화 방안 제시.
 * 결과 활용: 테스트 결과를 기반으로 한 의사 결정 프로세스 제시.
+
+
+## 엔터테인먼트, 게임, 그리고 아트 (TBD)
+
+## 데이터 처리, 분석 (TBD)
+
+## 코드 작성 자동화 (TBD)
 
 * * *
 ### Contributors
